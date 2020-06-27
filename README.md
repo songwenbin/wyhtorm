@@ -8,7 +8,7 @@
 
 ## 使用方式
 
-```
+```Java
 插入
 Model employee = new Model("TableName")
 employee.set("first_name", "wheel")
@@ -20,6 +20,6 @@ List<Model> employees = Model.getM("TableName").findAll();
 ```
 
 # 特性支持
-[*] 动态key，value形式存储数据库
-[] JSON直接存储到数据库
+- [*] 动态key，value形式存储数据库
+- [] JSON直接存储到数据库
 
