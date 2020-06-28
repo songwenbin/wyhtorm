@@ -8,18 +8,20 @@
 
 ## 使用方式
 
+### 插入
 ```Java
-插入
 Model employee = new Model("TableName")
 employee.set("first_name", "wheel")
    .set("last_name", "new");
 employee.save();
+```
 
-查询
+### 查询
+```Java
 List<Model> employees = Model.getM("TableName").findAll();
 ```
 
-# 特性支持
-- [*] 动态key，value形式存储数据库
-- [] JSON直接存储到数据库
+## 特性支持
+- [x] 动态key，value形式存储数据库
+- [ ] JSON直接存储到数据库
 
